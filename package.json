@@ -1,0 +1,18 @@
+{
+  "name": "newdesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-tw": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "watch-tw": "onchange './src/css/tailwind.css' 'tailwind.config.js' -- npm run build-tw"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  }
+}

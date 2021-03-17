@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./css/tailwind.css">
+</head>
+<body class="font-lato bg-gray-200">
+    <nav class="md:flex  md:p-0 w-full bg-gray-200 flex justify-between items-center">
+        <div class="flex items-center rounded-full mt-6">
+            <a href="index.html" class="flex lg:ml-4">
+                <img src="./img/idea.png" alt="WorkflowLogo">
+            </a>
+        </div>
+        <div class="hidden items-center md:flex lg:justify-end mt-4">
+            <div class="h-full flex md:flex-col-1 justify-between mr-80">
+                <ul class="hidden md:flex md:px-2 lg:mr-64 justify-start">
+                    <li class="mx-10 md:mx-3 mt-2">
+                        <a href="#" class="lg:text-black md:text-black text-xl">Product</a>
+                    </li>
+                    <li class="mx-10 md:mx-3 mt-2">
+                        <a href="#" class="lg:text-black md:text-black text-xl">Features</a>
+                    </li>
+                    <li class="mx-10 md:mx-3 mt-2">
+                        <a href="#" class="lg:text-black md:text-black text-xl">Marketplace</a>
+                    </li>
+                    <li class="mx-10 md:mx-3 mt-2">
+                        <a href="#" class="lg:text-black md:text-black text-xl">Company</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:my-auto h-full flex"> 
+                <div class="md:my-auto h-full flex p-5 mx-2 my-8"> 
+                    <button class="text-white bg-gray-500 rounded-lg w-32 h-12 mt-0  hover:bg-gray-300">Log in</button> 
+                </div>
+            </div>
+        </div>
+        <div class="block md:hidden">
+            <button class="menuBtn-js">
+                <svg class="w-6 h-6 ml-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+            <button class="hidden closeBtn-js hover:text-cw-blue-600 mr-2">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg>
+            </button>
+        </div>
+    </nav> 
+    <div class="md:hidden">
+        <nav class="hidden navMenu-js container mx-auto max-w-6xl px-5 ml-12">
+            <div class="px-0 pt-2 pb-3 space-y-1">
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
+    
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
+    
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
+    
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
+              </div>
+              <a href="#" class="block w-full px-6 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
+                Log in
+              </a>
+            </div>
+        </nav>
+    </div>
+    <main class="relative">
+        <div class="md:text-3xl lg:text-8xl text-black mt-16 lg:mt-24 text-center">
+           <b>Data to enrich your</b> <span class="text-purple-300"><br/>online buisness</span>
+        </div>
+        <div class="md:text-center lg:text-2xl text-gray-800 text-center mx-10 mt-6 lg:mx-80">
+            If you've got a small business and you want to make sure your appointment reminders, invoices,
+            and promotions are actually seen by your customers, SMS marketing tools are a great way to do it.
+            You can use these text message marketing apps to personally message your customers
+        </div>
+        <form class=" lg:py-32 bg-white m-5 lg:h-auto lg:w-11/12 lg:mt-20 lg:ml-20 mt-6 rounded-t-lg">
+            <nav class="bg-purple-700 rounded-t-lg w-full h-16 flex justify-between lg:-mt-32 ">
+                <a href="index.html" class="flex lg:ml-4 items-center">
+                    <img class="w-8 h-8 ml-3 lg:w-12 lg:h-12" src="./img/idea.png" alt="WorkflowLogo">
+                </a>
+                <div>
+                    <div class="bg-purple-300 rounded-lg px-2 py-2 shadow-xl flex m-3 w-full h-10 ml-12">
+                        <button class="text-gray-800 rounded-full p-2 focus:outline-none w-10 h-10 flex items-center justify-center">
+                            <svg class="w-6 h-6 -mt-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                        </button>
+                        <input class="bg-transparent rounded-full w-full py-1 px-3 p-2 text-gray-700 leading-tight focus:outline-none" id="search" type="text" placeholder="Search projects">
+                    </div>
+                </div>
+                <div class="px-6 pt-2 pb-3 space-y-1 flex justify-between">            
+                    <a href="#" class="block px-3 py-2 mt-1 text-base font-medium text-gray-300 hover:text-white">Documentation</a>
+        
+                    <a href="#" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white">Support</a>
+        
+                    <a href="#" class="px-3">
+                        <img class="w-6 h-6 mt-1.5" src="./img/user.png" alt="avatar user">
+                    </a>
+                  </div>
+                </div>
+            </nav>
+            <div class="grid lg:grid-col-3">
+                <div class="text-center md:text-center lg:w-1/5 lg:border-r h-full border-gray-400">
+                    <a href="#" class="flex ml-16 md:ml-72 lg:ml-12">
+                        <img class="w-8 h-8 mt-8 lg:w-14 lg:h-14" src="./img/user.png" alt="avatar user">
+                        <span class="mt-7 ml-2 lg:mt-9">User Profile <img class="w-4 h-4 lg:w-32 lg:my-0.5" src="./img/github.svg" alt="git"></span>
+                    </a>
+                    <div class="grid mt-8 mx-7 lg:m-10"> 
+                        <button class="bg-blue-600 h-12 px-8 md:py-2 lg:w-full lg:py-2 mt-6 md:p-6 border border-blue-500 rounded text-sm text-white font-bold focus:bg-blue-300 outline-none shadow-outline">New Project</button>
+                        <input class="bg-white h-12 px-8 md:py-2 lg:w-full lg:py-2 mt-4 md:p-6 border border-gray-500 rounded text-sm focus:bg-gray-100 font-bold outline-none shadow-outline" type="button" value="Invite Team"> 
+                    </div>
+                    <div class="flex ml-5 px-8 text-sm mt-6 md:px-44 md:mx-8 md:ml-16 md:space-x-4 lg:grid lg:grid-rows-1 lg:-ml-28">
+                        <a class="flex" href="#">
+                            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="black"><g>
+                                <rect fill="none"/></g><g><path d="M23,12l-2.44-2.79l0.34-3.69l-3.61-0.82L15.4,1.5L12,2.96L8.6,1.5L6.71,4.69L3.1,5.5L3.44,9.2L1,12l2.44,2.79l-0.34,3.7 l3.61,0.82L8.6,22.5l3.4-1.47l3.4,1.46l1.89-3.19l3.61-0.82l-0.34-3.69L23,12z M10.09,16.72l-3.8-3.81l1.48-1.48l2.32,2.33 l5.85-5.87l1.48,1.48L10.09,16.72z"/></g>
+                            </svg>
+                            <span class="lg:mx-3">Members</span>
+                        </a>
+                        <a class="flex lg:mt-4" href="#">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11 4a1 1 0 10-2 0v4a1 1 0 102 0V7zm-3 1a1 1 0 10-2 0v3a1 1 0 102 0V8zM8 9a1 1 0 00-2 0v2a1 1 0 102 0V9z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="">8 Project</span>
+                        </a>
+                    </div>
+                </div>
+                <form class=" lg:py-32 lg:w-3/5 lg:h-auto lg:ml-256 lg:absolute lg:mt-20 mt-6 m-5 rounded-t-lg">
+                    <div class="">
+                        <h2 class="mt-10 box-content lg:w-224 lg:border-b-2 font-bold lg:-mt-80 lg:ml-96">Projects</h2>
+
+                    </div>
+                </form>
+                <form class=" lg:py-32 lg:ml-334 lg:w-1/5 lg:h-auto lg:-mt-0.5 lg:absolute lg:border-l-2 mt-6 m-5 rounded-t-lg">
+                    <p class="font-bold lg:text-xl lg:-mt-28 lg:ml-6">Activity feed</p>
+                </form>
+            </div>
+        </form>
+        
+    </main>
+   <!-- <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+    <img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512">
+    <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+      <blockquote>
+        <p class="text-lg font-semibold">
+          “Tailwind CSS is the only framework that I've seen scale
+          on large teams. It’s easy to customize, adapts to any design,
+          and the build size is tiny.”
+        </p>
+      </blockquote>
+      <figcaption class="font-medium">
+        <div class="text-cyan-600">
+          Sarah Dayan
+        </div>
+        <div class="text-gray-500">
+          Staff Engineer, Algolia
+        </div>
+      </figcaption>
+    </div>
+  </figure>  -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Design</title>
+    <link rel="stylesheet" href="./css/tailwind.css">
+</head>
+<body class="shadow-md md:bg-gray-100 lg:bg-gray-800">
+    <header class="sm:bg-gray-100 lg:bg-gray-800 text-gray-800 ">
+        <nav class="container p-10 font-lato">
+            <div class="flex items-center justify-between lg:justify-start">
+                <a href="index.html" class="flex md:ml-6 lg:ml-8">
+                    <img src="./img/idea.png" alt="WorkflowLogo">
+                </a>
+                <ul class="hidden md:flex justify-start">
+                    <li class="mx-10 md:mx-3 mt-2">
+                        <a href="#" class="lg:text-white md:text-black text-xl">Product</a>
+                    </li>
+                    <li class="mx-10 md:mx-3 mt-2">
+                        <a href="#" class="lg:text-white md:text-black text-xl">Features</a>
+                    </li>
+                    <li class="mx-10 md:mx-3 mt-2">
+                        <a href="#" class="lg:text-white md:text-black text-xl">Marketplace</a>
+                    </li>
+                    <li class="mx-10 md:mx-3 mt-2">
+                        <a href="#" class="lg:text-white md:text-black text-xl">Company</a>
+                    </li>
+                    <button class="text-white bg-gray-500 rounded-lg w-32 h-12 mt-0  hover:bg-gray-300">Log in</button>
+                </ul>
+                <!-- <button class="hidden md:flex text-white text-center bg-gray-500 rounded-lg justify-end  w-32 h-12 mt-0 hover:bg-gray-300">Log in</button> -->
+                <div class="block md:hidden">
+                    <button class="menuBtn-js">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    </button>
+                    <button class="hidden closeBtn-js hover:text-cw-blue-600">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="md:hidden">
+            <nav class="hidden navMenu-js container mx-auto max-w-6xl px-5 ml-12">
+                <div class="px-0 pt-2 pb-3 space-y-1">
+                    <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
+        
+                    <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
+        
+                    <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
+        
+                    <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
+                  </div>
+                  <a href="#" class="block w-full px-6 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
+                    Log in
+                  </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form class=" lg:py-32 lg:bg-gray-100 lg:w-1/3 lg:h-auto lg:ml-256 lg:absolute lg:mt-20 mt-6">
+            <h2 class="text-center text-xl md:text-gray-600 lg:text-gray-600 lg:text-justify lg:ml-20">Sing in with</h2>
+            <div class="grid">
+                <div class="grid grid-col-3 py-10 mx-10 md:px-16 md:w-auto lg:grid lg:col-span-2 lg:px-8">
+                    <div class="flex justify-between lg:flex md:flex md:justify-between lg:justify-between">
+                        <p class="py-1.5 mt-6 rounded-lg md:border-none lg:w-32 h-10"><img class="lg:w-32 h-6 lg:my-0.5" src="./img/github.svg" alt="git"></p>
+                        <p class="py-1.5 mt-6 rounded-lg md:border-none lg:w-32 h-10"><img class="lg:w-32 h-6 lg:my-0.5" src="./img/twitter.svg" alt="twiter"></p>
+                        <p class="py-1.5 mt-6 rounded-lg md:border-none lg:w-32 h-10"><img class="lg:w-32 h-6 lg:my-0.5" src="./img/facebook-circular-logo.svg" alt=""></p>
+                    </div>
+                    <div class="border border-gray-300 mt-10 lg:w-full"></div>
+                    <div class="grid mt-4"> 
+                        <input class="bg-white h-12 px-8 lg:w-full mt-4 md:p-6 border border-gray-500 rounded text-sm focus:bg-gray-100 outline-none shadow-outline" type="text" placeholder="Fitstname" required>
+                        <input class="bg-white h-12 px-8 lg:w-full mt-4 md:p-6 border border-gray-500 rounded text-sm focus:bg-gray-100 outline-none shadow-outline" type="text" placeholder="Mobile Number or Email" required> 
+                        <input class="bg-white h-12 px-8 lg:w-full mt-4 mb:p-6 border border-gray-500 rounded text-sm focus:bg-gray-100 outline-none shadow-outline" type="password" placeholder="Password"  required>
+                    </div> 
+                    <a href="profile.html" class="bg-blue-500 hover:bg-blue-400 text-center rounded-lg mt-6 h-12 py-2.5 lg:w-full text-white lg:text-bold">Create Your Account</a>
+                    <div class="border border-gray-300 mt-10 lg:w-full"></div>
+                    <p class="text-center mt-6 mx-6">By signin up,you are agree to our <a href="#"><b>Teams,Data Policy</b></a> and <a href="#"><b>Cookies Policy</b></a> </p>
+                </div>
+            </div>
+        </form>
+    </main>
+    <section class="lg:py-6">
+        <div class="lg:w-2/5 h-screen bg-gray-800 md:w-full">
+            <div class="mx-10 py-8">
+                <p class="text-white text-center lg:text-justify lg:ml-40 py-2 px-6 lg:mt-32 bg-black rounded-full lg:h-10 mt-2 items-center"><span class="text-white px-2 bg-purple-600 rounded-full h-16">WE'RE HIRING</span>&nbsp;&nbsp;&nbsp; Visit our careers page
+                    <a href="#"><svg class="w-6 h-6 ml-auto -mt-6 md:ml-auto lg:ml-auto lg:-mt-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg></a>
+                </p>
+            </div>
+            <div class="md:text-3xl lg:text-8xl text-white mt-6 text-center lg:ml-44">
+                Data to enrich your <span class="text-purple-300">online buisness</span>
+            </div>
+            <div class="md:text-center lg:text-2xl text-gray-200 text-center mx-10 mt-6 lg:ml-44">
+                If you've got a small business and you want to make sure your appointment reminders, invoices,
+                and promotions are actually seen by your customers, SMS marketing tools are a great way to do it.
+                You can use these text message marketing apps to personally message your customers
+            </div>
+            <div class="mt-32">
+               <h3 class="text-white mx-10 md:text-center lg:ml-6 lg:text-2xl">Used by</h3> 
+               <div class="mt-6 lg:mt-12 lg:ml-44 flex px-6">
+                    <a class="text-white font-thin lg:text-3xl mx-3 md:mx-20 lg:mx-10" href="#">HelthFirst</a>
+                    <a class="text-white font-thin lg:text-3xl mx-3 md:mx-20 lg:mx-10" href="#">WorkCation</a>
+                    <a class="text-white font-thin lg:text-3xl mx-3 md:mx-20 lg:mx-10" href="#">TeamView</a>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
